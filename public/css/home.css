@@ -1,0 +1,28 @@
+.middle {
+    font-size: 30px;
+    text-align: center;
+}
+
+.link {
+    text-decoration: underline;
+    font-family: "SFUIText-Bold";
+    background-clip: text;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    background-image: url("https://78.media.tumblr.com/a95463a62db36d098f0a04a2963d0692/tumblr_pf2bfxWl2U1tpmi59o1_500.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.footer {
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-image: url("https://78.media.tumblr.com/a95463a62db36d098f0a04a2963d0692/tumblr_pf2bfxWl2U1tpmi59o1_500.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}

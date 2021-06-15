@@ -1,0 +1,5 @@
+{
+    "port": 80,
+    "xmppPort": 443,
+    "db": "mongodb+srv://gooat:daron1@dynamite.nji6r.mongodb.net/Dynamite?retryWrites=true&w=majority"
+}

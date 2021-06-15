@@ -1,0 +1,42 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title> Sign Up | Quil</title>
+        <link rel="icon" type="image/ico" href="https://cdn.discordapp.com/attachments/826020881411211294/850957743509471232/FortniteLauncher.ico">
+        <link rel="stylesheet" href="../css/fonts.css">
+        <link rel="stylesheet" href="../css/account.css">
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="../js/signup.js"></script>
+
+    </head>    
+    <body>
+        <div class="header">
+            <a class="bold">Aurora +</a>
+            <div class="header-right">
+                <a href="/">Home</a>
+                <a href="/download">Download</a>
+                <a href="/login">Log in</a>
+            </div>
+        </div>
+        <div class="center">
+            <form id="signupForm">
+                <a class="title">Sign Up</a><br><br>
+                <a>Username</a>
+                <input type="text" id="username" name="username" placeholder="Stormzy"> 
+                <a>Email</a>
+                <input type="email" id="email" name="email" placeholder="aurora.@aurora+.fn"> 
+                <a>Password</a>
+                <input type="password" id="password" name="password" placeholder="Aurora +">
+                <a>Already have an account?</a>
+                <a href="/login">Click Here</a>
+                <a> to login.</a>
+                <br>
+                <div id="errorClass">
+                    <a id="notice" class="title" style="font-size: 25px;"></a>
+                </div>
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+    </body>
+</html>
